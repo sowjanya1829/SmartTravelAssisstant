@@ -1,0 +1,14 @@
+groq
+python-dotenv
+langchain-groq
+langchain-core
+langgraph
+qdrant-client
+fastapi
+uvicorn
+streamlit
+requests
+pypdf
+langchain-text-splitters
+sentence-transformers
+rank-bm25

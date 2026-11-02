@@ -1,0 +1,191 @@
+{
+  "method": "baseline_dense_retrieval",
+  "summary": {
+    "number_of_questions": 4,
+    "top_k": 3,
+    "mean_precision_at_k": 0.9167,
+    "mean_source_recall_at_k": 1.0,
+    "mean_mrr": 1.0,
+    "retrieval_latency": {
+      "mean_ms": 58.84,
+      "median_ms": 30.16,
+      "p95_ms": 147.55
+    },
+    "answer_generation_call_latency": {
+      "mean_ms": 861.34,
+      "median_ms": 838.91,
+      "p95_ms": 1000.76
+    },
+    "evaluation_wall_time": {
+      "mean_ms": 920.34,
+      "median_ms": 868.34,
+      "p95_ms": 1148.51
+    }
+  },
+  "results": [
+    {
+      "question": "What tourist attractions are mentioned in Hyderabad?",
+      "relevant_sources": [
+        "data/cities/hyderabad.txt"
+      ],
+      "retrieved_chunks": [
+        {
+          "id": "30",
+          "source": "data\\cities\\hyderabad.txt",
+          "city": "Hyderabad",
+          "content": "City: Hyderabad\nState: Telangana\nCategory: Historical and Cultural Places",
+          "score": 0.6981085038500014
+        },
+        {
+          "id": "42",
+          "source": "data\\cities\\hyderabad.txt",
+          "city": "Hyderabad",
+          "content": "Description: Travellers can compare metro, buses, local trains, taxis, accommodation, and food costs to plan a budget-friendly Hyderabad trip.\nTravel tip: Transport fares, accommodation prices, opening hours, and attraction availability can change. Confirm current information before travelling.",
+          "score": 0.6560789063665402
+        },
+        {
+          "id": "44",
+          "source": "data\\cities\\visakhapatnam.txt",
+          "city": "Visakhapatnam",
+          "content": "City: Visakhapatnam\nState: Andhra Pradesh\nCategory: Beaches and Coastal Places",
+          "score": 0.5494416236995079
+        }
+      ],
+      "precision_at_k": 0.6666666666666666,
+      "source_recall_at_k": 1.0,
+      "mrr": 1.0,
+      "retrieved_sources": [
+        "data/cities/hyderabad.txt",
+        "data/cities/hyderabad.txt",
+        "data/cities/visakhapatnam.txt"
+      ],
+      "retrieval_latency_ms": 147.55,
+      "answer_generation_call_latency_ms": 1000.76,
+      "evaluation_wall_time_ms": 1148.51,
+      "answer": "The provided information does not list any specific tourist attractions in Hyderabad."
+    },
+    {
+      "question": "What tourist attractions are mentioned in Bengaluru?",
+      "relevant_sources": [
+        "data/cities/bengaluru.txt"
+      ],
+      "retrieved_chunks": [
+        {
+          "id": "0",
+          "source": "data\\cities\\bengaluru.txt",
+          "city": "Bengaluru",
+          "content": "City: Bengaluru\nState: Karnataka\nCategory: Parks and Gardens",
+          "score": 0.6509951840165431
+        },
+        {
+          "id": "12",
+          "source": "data\\cities\\bengaluru.txt",
+          "city": "Bengaluru",
+          "content": "Description: Travellers can compare metro, buses, suburban rail where available, taxis, accommodation, and food costs when planning a Bengaluru trip.",
+          "score": 0.6434434484181959
+        },
+        {
+          "id": "9",
+          "source": "data\\cities\\bengaluru.txt",
+          "city": "Bengaluru",
+          "content": "Place: Visvesvaraya Industrial and Technological Museum\nDescription: This museum in Bengaluru features science and technology exhibits designed for learning and exploration.\nBest for: Science, technology, and family visits.",
+          "score": 0.5541144370708859
+        }
+      ],
+      "precision_at_k": 1.0,
+      "source_recall_at_k": 1.0,
+      "mrr": 1.0,
+      "retrieved_sources": [
+        "data/cities/bengaluru.txt",
+        "data/cities/bengaluru.txt",
+        "data/cities/bengaluru.txt"
+      ],
+      "retrieval_latency_ms": 29.24,
+      "answer_generation_call_latency_ms": 766.79,
+      "evaluation_wall_time_ms": 796.16,
+      "answer": "The only specific tourist attraction mentioned in the Bengaluru information is:\n\n- **Visvesvaraya Industrial and Technological Museum** – a science and technology museum suitable for families and those interested in learning about engineering and innovation.  \n\nNo other individual attractions are listed in the provided context."
+    },
+    {
+      "question": "What tourist attractions are mentioned in Chennai?",
+      "relevant_sources": [
+        "data/cities/chennai.txt"
+      ],
+      "retrieved_chunks": [
+        {
+          "id": "14",
+          "source": "data\\cities\\chennai.txt",
+          "city": "Chennai",
+          "content": "City: Chennai\nState: Tamil Nadu\nCategory: Beaches and Coastal Places",
+          "score": 0.6522603471027868
+        },
+        {
+          "id": "28",
+          "source": "data\\cities\\chennai.txt",
+          "city": "Chennai",
+          "content": "Description: Travellers can compare suburban rail, metro, buses, taxis, accommodation, and food options when planning a Chennai trip.\nTravel tip: Transport fares, accommodation prices, opening hours, and attraction availability can change. Confirm current information before travelling.",
+          "score": 0.6263078158173174
+        },
+        {
+          "id": "25",
+          "source": "data\\cities\\chennai.txt",
+          "city": "Chennai",
+          "content": "Place: Government Museum, Chennai\nDescription: The Government Museum in Chennai is a museum complex with collections covering history, art, archaeology, and natural history.\nBest for: Museum visits and learning about regional heritage.",
+          "score": 0.5522184704272949
+        }
+      ],
+      "precision_at_k": 1.0,
+      "source_recall_at_k": 1.0,
+      "mrr": 1.0,
+      "retrieved_sources": [
+        "data/cities/chennai.txt",
+        "data/cities/chennai.txt",
+        "data/cities/chennai.txt"
+      ],
+      "retrieval_latency_ms": 31.08,
+      "answer_generation_call_latency_ms": 887.1,
+      "evaluation_wall_time_ms": 918.31,
+      "answer": "The only specific tourist attraction mentioned in the provided information for Chennai is:\n\n- **Government Museum, Chennai** – a museum complex featuring collections of history, art, archaeology, and natural history."
+    },
+    {
+      "question": "What tourist attractions are mentioned in Visakhapatnam?",
+      "relevant_sources": [
+        "data/cities/visakhapatnam.txt"
+      ],
+      "retrieved_chunks": [
+        {
+          "id": "44",
+          "source": "data\\cities\\visakhapatnam.txt",
+          "city": "Visakhapatnam",
+          "content": "City: Visakhapatnam\nState: Andhra Pradesh\nCategory: Beaches and Coastal Places",
+          "score": 0.7232444166318157
+        },
+        {
+          "id": "60",
+          "source": "data\\cities\\visakhapatnam.txt",
+          "city": "Visakhapatnam",
+          "content": "Description: Travellers can compare local buses, trains, taxis, accommodation, and food options when planning a Visakhapatnam trip.\nTravel tip: Prices, transport schedules, opening hours, and attraction availability can change. Confirm current information before travelling.",
+          "score": 0.6713564560141672
+        },
+        {
+          "id": "57",
+          "source": "data\\cities\\visakhapatnam.txt",
+          "city": "Visakhapatnam",
+          "content": "Place: Visakha Museum\nDescription: Visakha Museum is a local museum in Visakhapatnam with exhibits related to the region's history and heritage.\nBest for: Local history and cultural learning.\nTravel tip: Confirm current opening hours and availability before visiting.",
+          "score": 0.6162534048486358
+        }
+      ],
+      "precision_at_k": 1.0,
+      "source_recall_at_k": 1.0,
+      "mrr": 1.0,
+      "retrieved_sources": [
+        "data/cities/visakhapatnam.txt",
+        "data/cities/visakhapatnam.txt",
+        "data/cities/visakhapatnam.txt"
+      ],
+      "retrieval_latency_ms": 27.48,
+      "answer_generation_call_latency_ms": 790.72,
+      "evaluation_wall_time_ms": 818.36,
+      "answer": "The only specific tourist attraction mentioned in the provided information for Visakhapatnam is:\n\n- **Visakha Museum** – a local museum showcasing the region’s history and heritage.\n\nNo other individual attractions (such as specific beaches or landmarks) are listed in the context."
+    }
+  ]
+}

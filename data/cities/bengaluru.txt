@@ -1,0 +1,37 @@
+City: Bengaluru
+State: Karnataka
+Category: Parks and Gardens
+
+Place: Lalbagh Botanical Garden
+Description: Lalbagh Botanical Garden is a well-known garden in Bengaluru with plant collections, landscaped grounds, and walking paths.
+Best for: Nature, gardens, relaxed walks, and sightseeing.
+Travel tip: Check current opening hours and entry information before visiting.
+Source: Add a verified source URL here.
+
+Place: Cubbon Park
+Description: Cubbon Park is a large green space in central Bengaluru, used for walks and outdoor recreation.
+Best for: Walking, relaxing outdoors, and enjoying greenery.
+Travel tip: Check local access rules and conditions before your visit.
+Source: Add a verified source URL here.
+
+Category: History and Architecture
+
+Place: Bengaluru Palace
+Description: Bengaluru Palace is a historic palace in the city, known for its architecture and landscaped grounds.
+Best for: Architecture, history, and sightseeing.
+Travel tip: Confirm current opening hours, entry rules, and ticket details before travelling.
+Source: Add a verified source URL here.
+
+Category: Museums and Science
+
+Place: Visvesvaraya Industrial and Technological Museum
+Description: This museum in Bengaluru features science and technology exhibits designed for learning and exploration.
+Best for: Science, technology, and family visits.
+Travel tip: Check current opening days, timings, and exhibit availability before visiting.
+Source: Add a verified source URL here.
+
+Category: Budget Travel
+
+Description: Travellers can compare metro, buses, suburban rail where available, taxis, accommodation, and food costs when planning a Bengaluru trip.
+Travel tip: Transport fares, accommodation prices, opening hours, and attraction availability can change. Confirm current information before travelling.
+Source: Add a verified source URL here.

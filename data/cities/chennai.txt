@@ -1,0 +1,43 @@
+City: Chennai
+State: Tamil Nadu
+Category: Beaches and Coastal Places
+
+Place: Marina Beach
+Description: Marina Beach is a well-known urban beach along the Bay of Bengal in Chennai.
+Best for: Coastal walks, sunrise views, and local sightseeing.
+Travel tip: Follow local safety instructions and avoid entering the sea where swimming is restricted.
+Source: Add a verified source URL here.
+
+Place: Elliot's Beach (Besant Nagar Beach)
+Description: Elliot's Beach is a popular coastal area in the Besant Nagar neighbourhood of Chennai.
+Best for: Evening walks, relaxing by the coast, and nearby cafes.
+Travel tip: Check local conditions and keep the beach clean.
+Source: Add a verified source URL here.
+
+Category: Historical and Cultural Places
+
+Place: Fort St. George
+Description: Fort St. George is a historic fort complex associated with the early colonial history of Chennai.
+Best for: History and architecture.
+Travel tip: Check current opening hours, entry rules, and museum availability before visiting.
+Source: Add a verified source URL here.
+
+Place: Kapaleeshwarar Temple
+Description: Kapaleeshwarar Temple is a prominent Hindu temple in Mylapore, Chennai, known for its Dravidian-style architecture.
+Best for: Architecture, cultural heritage, and religious visits.
+Travel tip: Visitors should respect temple customs and check current visitor rules.
+Source: Add a verified source URL here.
+
+Category: Museums and Arts
+
+Place: Government Museum, Chennai
+Description: The Government Museum in Chennai is a museum complex with collections covering history, art, archaeology, and natural history.
+Best for: Museum visits and learning about regional heritage.
+Travel tip: Confirm opening days, timings, and ticket details before travelling.
+Source: Add a verified source URL here.
+
+Category: Budget Travel
+
+Description: Travellers can compare suburban rail, metro, buses, taxis, accommodation, and food options when planning a Chennai trip.
+Travel tip: Transport fares, accommodation prices, opening hours, and attraction availability can change. Confirm current information before travelling.
+Source: Add a verified source URL here.

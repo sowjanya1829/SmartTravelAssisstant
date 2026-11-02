@@ -1,0 +1,49 @@
+City: Visakhapatnam
+State: Andhra Pradesh
+Category: Beaches and Coastal Places
+
+Place: RK Beach (Ramakrishna Beach)
+Description: RK Beach is a popular waterfront area in Visakhapatnam along the Bay of Bengal.
+Best for: Seaside walks, views, and local sightseeing.
+Travel tip: Follow beach safety notices and avoid entering the sea when conditions are unsafe.
+Source: Add a verified source URL here.
+
+Place: Rushikonda Beach
+Description: Rushikonda is a coastal destination near Visakhapatnam known for its beach and surrounding scenery.
+Best for: Coastal views and outdoor visits.
+Travel tip: Check current access, water conditions, and any local restrictions before visiting.
+Source: Add a verified source URL here.
+
+Category: Viewpoints and Nature
+
+Place: Kailasagiri
+Description: Kailasagiri is a hilltop park in Visakhapatnam with views of the city and coastline.
+Best for: Panoramic views, outdoor time, and sightseeing.
+Travel tip: Check current operating hours and transport options, including ropeway availability, before travelling.
+Source: Add a verified source URL here.
+
+Place: Yarada Beach
+Description: Yarada Beach is a coastal area near Visakhapatnam surrounded by hills and natural scenery.
+Best for: Scenic views and a quieter coastal outing.
+Travel tip: Plan transport in advance, check access conditions, and follow local safety guidance.
+Source: Add a verified source URL here.
+
+Category: History and Museums
+
+Place: Submarine Museum (INS Kurusura)
+Description: INS Kurusura is a decommissioned submarine displayed as a museum near RK Beach.
+Best for: Maritime history and educational visits.
+Travel tip: Verify current opening days, entry rules, and ticket details before visiting.
+Source: Add a verified source URL here.
+
+Place: Visakha Museum
+Description: Visakha Museum is a local museum in Visakhapatnam with exhibits related to the region's history and heritage.
+Best for: Local history and cultural learning.
+Travel tip: Confirm current opening hours and availability before visiting.
+Source: Add a verified source URL here.
+
+Category: Budget Travel
+
+Description: Travellers can compare local buses, trains, taxis, accommodation, and food options when planning a Visakhapatnam trip.
+Travel tip: Prices, transport schedules, opening hours, and attraction availability can change. Confirm current information before travelling.
+Source: Add a verified source URL here.

@@ -1,0 +1,174 @@
+{
+  "method": "hybrid_retrieval_with_reranking",
+  "summary": {
+    "number_of_questions": 4,
+    "top_k": 3,
+    "mean_precision_at_k": 1.0,
+    "mean_source_recall_at_k": 1.0,
+    "mean_mrr": 1.0,
+    "retrieval_latency": {
+      "mean_ms": 291.16,
+      "median_ms": 227.06,
+      "p95_ms": 512.98
+    },
+    "generation_latency": {
+      "mean_ms": 715.05,
+      "median_ms": 721.64,
+      "p95_ms": 749.77
+    }
+  },
+  "results": [
+    {
+      "question": "What tourist attractions are mentioned in Hyderabad?",
+      "relevant_sources": [
+        "data/cities/hyderabad.txt"
+      ],
+      "retrieved_chunks": [
+        {
+          "id": 31,
+          "score": 1.9528427124023438,
+          "city": "Hyderabad",
+          "source": "data\\cities\\hyderabad.txt",
+          "content": "Place: Charminar\nDescription: Charminar is a historic monument in Hyderabad, known for its four arches and its location in the old city.\nBest for: History, architecture, photography, and nearby markets."
+        },
+        {
+          "id": 36,
+          "score": 1.7262852191925049,
+          "city": "Hyderabad",
+          "source": "data\\cities\\hyderabad.txt",
+          "content": "Place: Hussain Sagar\nDescription: Hussain Sagar is a lake in Hyderabad with waterfront areas used for city sightseeing and outdoor visits.\nBest for: Lakeside views, walks, and relaxing outdoors.\nTravel tip: Check current local conditions and activity availability before planning a visit."
+        },
+        {
+          "id": 30,
+          "score": 0.6715125441551208,
+          "city": "Hyderabad",
+          "source": "data\\cities\\hyderabad.txt",
+          "content": "City: Hyderabad\nState: Telangana\nCategory: Historical and Cultural Places"
+        }
+      ],
+      "generated_answer": "The travel context lists the following tourist attractions in Hyderabad:\n\n1. **Charminar** – a historic monument known for its four arches, located in the old city.  \n2. **Hussain Sagar** – a lake with waterfront areas popular for sightseeing, walks, and outdoor relaxation.",
+      "sources": [
+        "data\\cities\\hyderabad.txt"
+      ],
+      "precision_at_k": 1.0,
+      "source_recall_at_k": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 512.98,
+      "generation_latency_ms": 721.17
+    },
+    {
+      "question": "What tourist attractions are mentioned in Bengaluru?",
+      "relevant_sources": [
+        "data/cities/bengaluru.txt"
+      ],
+      "retrieved_chunks": [
+        {
+          "id": 6,
+          "score": 1.9788504838943481,
+          "city": "Bengaluru",
+          "source": "data\\cities\\bengaluru.txt",
+          "content": "Place: Bengaluru Palace\nDescription: Bengaluru Palace is a historic palace in the city, known for its architecture and landscaped grounds.\nBest for: Architecture, history, and sightseeing.\nTravel tip: Confirm current opening hours, entry rules, and ticket details before travelling."
+        },
+        {
+          "id": 3,
+          "score": 1.8799647092819214,
+          "city": "Bengaluru",
+          "source": "data\\cities\\bengaluru.txt",
+          "content": "Place: Cubbon Park\nDescription: Cubbon Park is a large green space in central Bengaluru, used for walks and outdoor recreation.\nBest for: Walking, relaxing outdoors, and enjoying greenery.\nTravel tip: Check local access rules and conditions before your visit."
+        },
+        {
+          "id": 9,
+          "score": 1.805262565612793,
+          "city": "Bengaluru",
+          "source": "data\\cities\\bengaluru.txt",
+          "content": "Place: Visvesvaraya Industrial and Technological Museum\nDescription: This museum in Bengaluru features science and technology exhibits designed for learning and exploration.\nBest for: Science, technology, and family visits."
+        }
+      ],
+      "generated_answer": "The travel context lists the following tourist attractions in Bengaluru:\n\n1. **Bengaluru Palace** – a historic palace known for its architecture and landscaped grounds.  \n2. **Cubbon Park** – a large green space in central Bengaluru, popular for walks and outdoor recreation.  \n3. **Visvesvaraya Industrial and Technological Museum** – a science and technology museum designed for learning and exploration.",
+      "sources": [
+        "data\\cities\\bengaluru.txt"
+      ],
+      "precision_at_k": 1.0,
+      "source_recall_at_k": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 225.31,
+      "generation_latency_ms": 722.11
+    },
+    {
+      "question": "What tourist attractions are mentioned in Chennai?",
+      "relevant_sources": [
+        "data/cities/chennai.txt"
+      ],
+      "retrieved_chunks": [
+        {
+          "id": 15,
+          "score": 1.132513165473938,
+          "city": "Chennai",
+          "source": "data\\cities\\chennai.txt",
+          "content": "Place: Marina Beach\nDescription: Marina Beach is a well-known urban beach along the Bay of Bengal in Chennai.\nBest for: Coastal walks, sunrise views, and local sightseeing.\nTravel tip: Follow local safety instructions and avoid entering the sea where swimming is restricted."
+        },
+        {
+          "id": 14,
+          "score": 0.02469760552048683,
+          "city": "Chennai",
+          "source": "data\\cities\\chennai.txt",
+          "content": "City: Chennai\nState: Tamil Nadu\nCategory: Beaches and Coastal Places"
+        },
+        {
+          "id": 17,
+          "score": 0.018528487533330917,
+          "city": "Chennai",
+          "source": "data\\cities\\chennai.txt",
+          "content": "Place: Elliot's Beach (Besant Nagar Beach)\nDescription: Elliot's Beach is a popular coastal area in the Besant Nagar neighbourhood of Chennai.\nBest for: Evening walks, relaxing by the coast, and nearby cafes.\nTravel tip: Check local conditions and keep the beach clean."
+        }
+      ],
+      "generated_answer": "**Tourist attractions mentioned for Chennai**\n\n| Attraction | Description |\n|------------|-------------|\n| **Marina Beach** | A well‑known urban beach along the Bay of Bengal, popular for coastal walks, sunrise views, and local sightseeing. |\n| **Elliot's Beach (Besant Nagar Beach)** | A popular coastal area in the Besant Nagar neighbourhood, ideal for evening walks, relaxing by the coast, and nearby cafés. |\n\nThese are the only attractions explicitly referenced in the provided Chennai travel context.",
+      "sources": [
+        "data\\cities\\chennai.txt"
+      ],
+      "precision_at_k": 1.0,
+      "source_recall_at_k": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 228.81,
+      "generation_latency_ms": 667.13
+    },
+    {
+      "question": "What tourist attractions are mentioned in Visakhapatnam?",
+      "relevant_sources": [
+        "data/cities/visakhapatnam.txt"
+      ],
+      "retrieved_chunks": [
+        {
+          "id": 50,
+          "score": 3.891143321990967,
+          "city": "Visakhapatnam",
+          "source": "data\\cities\\visakhapatnam.txt",
+          "content": "Place: Kailasagiri\nDescription: Kailasagiri is a hilltop park in Visakhapatnam with views of the city and coastline.\nBest for: Panoramic views, outdoor time, and sightseeing.\nTravel tip: Check current operating hours and transport options, including ropeway availability, before travelling."
+        },
+        {
+          "id": 47,
+          "score": 3.4835293292999268,
+          "city": "Visakhapatnam",
+          "source": "data\\cities\\visakhapatnam.txt",
+          "content": "Place: Rushikonda Beach\nDescription: Rushikonda is a coastal destination near Visakhapatnam known for its beach and surrounding scenery.\nBest for: Coastal views and outdoor visits.\nTravel tip: Check current access, water conditions, and any local restrictions before visiting."
+        },
+        {
+          "id": 45,
+          "score": 2.7550196647644043,
+          "city": "Visakhapatnam",
+          "source": "data\\cities\\visakhapatnam.txt",
+          "content": "Place: RK Beach (Ramakrishna Beach)\nDescription: RK Beach is a popular waterfront area in Visakhapatnam along the Bay of Bengal.\nBest for: Seaside walks, views, and local sightseeing.\nTravel tip: Follow beach safety notices and avoid entering the sea when conditions are unsafe."
+        }
+      ],
+      "generated_answer": "The travel context lists the following tourist attractions in Visakhapatnam:\n\n1. **Kailasagiri** – a hilltop park offering panoramic views of the city and coastline.  \n2. **Rushikonda Beach** – a coastal destination known for its beach and surrounding scenery.  \n3. **RK Beach (Ramakrishna Beach)** – a popular waterfront area along the Bay of Bengal, ideal for seaside walks and local sightseeing.",
+      "sources": [
+        "data\\cities\\visakhapatnam.txt"
+      ],
+      "precision_at_k": 1.0,
+      "source_recall_at_k": 1.0,
+      "mrr": 1.0,
+      "retrieval_latency_ms": 197.55,
+      "generation_latency_ms": 749.77
+    }
+  ]
+}

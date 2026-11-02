@@ -1,0 +1,38 @@
+
+City: Hyderabad
+State: Telangana
+Category: Historical and Cultural Places
+
+Place: Charminar
+Description: Charminar is a historic monument in Hyderabad, known for its four arches and its location in the old city.
+Best for: History, architecture, photography, and nearby markets.
+Travel tip: Allow time to explore the surrounding streets and check current visiting hours before travelling.
+Source: Add a verified source URL here.
+
+Place: Golconda Fort
+Description: Golconda Fort is a historic fort complex associated with the history of the Deccan region.
+Best for: History, architecture, and sightseeing.
+Travel tip: Wear comfortable walking shoes and confirm current entry details and timings before visiting.
+Source: Add a verified source URL here.
+
+Category: Lakes and Outdoor Places
+
+Place: Hussain Sagar
+Description: Hussain Sagar is a lake in Hyderabad with waterfront areas used for city sightseeing and outdoor visits.
+Best for: Lakeside views, walks, and relaxing outdoors.
+Travel tip: Check current local conditions and activity availability before planning a visit.
+Source: Add a verified source URL here.
+
+Category: Museums and Culture
+
+Place: Salar Jung Museum
+Description: Salar Jung Museum is a museum in Hyderabad with collections of art, historical objects, and decorative arts.
+Best for: Museum visits and cultural learning.
+Travel tip: Confirm opening days, timings, and ticket information before travelling.
+Source: Add a verified source URL here.
+
+Category: Budget Travel
+
+Description: Travellers can compare metro, buses, local trains, taxis, accommodation, and food costs to plan a budget-friendly Hyderabad trip.
+Travel tip: Transport fares, accommodation prices, opening hours, and attraction availability can change. Confirm current information before travelling.
+Source: Add a verified source URL here.
